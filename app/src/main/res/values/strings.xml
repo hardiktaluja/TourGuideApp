@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <string name="tourist">Tourist</string>
+    <string name="worship">Worship</string>
+    <string name="shopping">Shopping</string>
+    <string name="malls">Malls</string>
+
+    <string name="india_gate">India Gate</string>
+    <string name="humayun_tomb">Humayun\'s Tomb</string>
+    <string name="red_fort">Red Fort</string>
+    <string name="qutab_minar">Qutab Minar</string>
+    <string name="purana_qila">Purana Qila</string>
+    <string name="agrasen_ki_baoli">Agrasen Ki Baoli</string>
+    <string name="jantar_mantar">Jantar Mantar</string>
+    <string name="national_museum">National Museum</string>
+    <string name="parliament_house">Parliament House</string>
+    <string name="rashtrapati_bhawan">Rashtrapati Bhawan</string>
+    <string name="safdarjung_tomb">Safdarjung\'s Tomb</string>
+    <string name="the_garden_of_five_senses">The Garden of Five Senses</string>
+    <string name="tughlaqabad_fort">Tughlaqabad Fort</string>
+    <string name="okhla_bird_sanctuary">Okhla Bird Sanctuary</string>
+    <string name="shanti_vana">Shanti Vana</string>
+    <string name="raj_ghat">Raj Ghat</string>
+
+    <string name="akshardham_temple">Akshardham Swaminarayan Temple</string>
+    <string name="jama_masjid">Jama Masjid</string>
+    <string name="lotus_temple">Lotus Temple</string>
+    <string name="bangla_sahib">Gurudwara Bangla Sahib</string>
+    <string name="sacred_heart_cathedral">Sacred Heart Cathedral</string>
+    <string name="sisganj">Gurudwara Sisganj</string>
+    <string name="iskcon">ISKCON Temple</string>
+    <string name="laxminarayan_temple">Laxminarayan Temple</string>
+    <string name="nizamuddin_dargah">Nizamuddin Dargah</string>
+
+    <string name="sarojini">Sarojini Nagar Market</string>
+    <string name="cp">Connaught Place</string>
+    <string name="chandni_chowk">Chandni Chowk</string>
+    <string name="lajpat_nagar">Lajpat Nagar</string>
+    <string name="karol_bagh">Karol Bagh</string>
+    <string name="janpath">Janpath</string>
+    <string name="dilli_haat">Dilli Haat</string>
+    <string name="hkv">Hauz Khas Village</string>
+    <string name="saket_district_centre">Saket District Centre</string>
+    <string name="cyber_hub">Cyber Hub</string>
+
+    <string name="select_citywalk">Select Citywalk</string>
+    <string name="dlf_promenade">DLF Promenade</string>
+    <string name="ambience">Ambience Mall</string>
+    <string name="dlf_emporio">DLF Emporio</string>
+    <string name="the_great_india_place">The Great India Place</string>
+    <string name="dlf_mall_of_india">DLF Mall of India</string>
+    <string name="ansal_plaza">Ansal Plaza</string>
+    <string name="pacific_mall">Pacific Mall</string>
+    <string name="metro_walk">Metro Walk</string>
+
+    <string name="central_secretariat">Central Secretariat</string>
+    <string name="khan_market">Khan Market</string>
+    <string name="pragati_maidan">Pragati Maidan</string>
+    <string name="barakhamba_road">Barakhamba Road</string>
+    <string name="rajiv_chowk">Rajiv Chowk</string>
+    <string name="jorbagh">Jorbagh</string>
+    <string name="saket">Saket</string>
+    <string name="tughlakabad">Tughlakabad</string>
+    <string name="delhi_gate">Delhi Gate</string>
+    <string name="akshardham">Akshardham</string>
+    <string name="nehru_place">Nehru Place</string>
+    <string name="patel_chowk">Patel Chowk</string>
+    <string name="lal_quila">Lal Quila</string>
+    <string name="kailash_colony">Kailash Colony</string>
+    <string name="rk_ashram_marg">RK Ashram Marg</string>
+    <string name="jangpura">Jangpura</string>
+    <string name="sarojini_nagar">Sarojini Nagar</string>
+    <string name="ina">INA</string>
+    <string name="hauz_khas">Hauz Khas</string>
+    <string name="cyber_city">Cyber City (Rapid Metro)</string>
+    <string name="malviya_nagar">Malviya Nagar</string>
+    <string name="noida_sector_18">Noida Sector 18</string>
+    <string name="moolchand">Moolchand</string>
+    <string name="subhash_nagar">Subhash Nagar</string>
+    <string name="moulsari_avenue">Moulsari Avenue (Rapid Metro)</string>
+    <string name="rithala">Rithala</string>
+
+
+</resources>
