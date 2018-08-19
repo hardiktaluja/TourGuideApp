@@ -8,6 +8,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
+    public static final int NO_OF_TABS = 4;
+
     private Context context;
 
     public CategoryAdapter(Context context, FragmentManager fm) {
@@ -30,7 +32,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return NO_OF_TABS;
     }
 
     @Nullable

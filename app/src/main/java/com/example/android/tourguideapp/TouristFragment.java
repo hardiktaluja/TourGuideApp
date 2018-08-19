@@ -28,7 +28,7 @@ public class TouristFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-        ArrayList<Place> places = new ArrayList<Place>();
+        ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(getString(R.string.india_gate), getString(R.string.central_secretariat), R.drawable.indiagate));
         places.add(new Place(getString(R.string.humayun_tomb), getString(R.string.khan_market), R.drawable.humayuntomb));
         places.add(new Place(getString(R.string.red_fort), getString(R.string.chandni_chowk), R.drawable.redfort));

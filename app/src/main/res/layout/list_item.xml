@@ -9,7 +9,8 @@
         android:id="@+id/image"
         android:layout_width="@dimen/image_dimensions"
         android:layout_height="@dimen/image_dimensions"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        tools:src="@drawable/indiagate"/>
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -23,12 +24,14 @@
             android:id="@+id/place_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="@string/india_gate"/>
 
         <TextView
             android:id="@+id/location_text_view"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:text="@string/central_secretariat"/>
 
     </LinearLayout>
 

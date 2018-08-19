@@ -22,30 +22,39 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         this.colorResourceId = colorResourceId;
     }
 
+    static class ViewHolder {
+        private TextView placeTextView;
+        private TextView locationTextView;
+        private ImageView imageView;
+    }
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
+        ViewHolder holder;
+        if (null == convertView) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+            holder = new ViewHolder();
+            holder.placeTextView = convertView.findViewById(R.id.place_text_view);
+            holder.locationTextView = convertView.findViewById(R.id.location_text_view);
+            holder.imageView = convertView.findViewById(R.id.image);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
         }
 
         Place currentPlace = getItem(position);
 
-        TextView placeTextView = listItemView.findViewById(R.id.place_text_view);
-        placeTextView.setText(currentPlace.getName());
+        holder.placeTextView.setText(currentPlace.getName());
+        holder.locationTextView.setText(currentPlace.getLocation());
+        holder.imageView.setImageResource(currentPlace.getImageResourceId());
 
-        TextView locationTextView = listItemView.findViewById(R.id.location_text_view);
-        locationTextView.setText(currentPlace.getLocation());
-
-        ImageView imageView = listItemView.findViewById(R.id.image);
-        imageView.setImageResource(currentPlace.getImageResourceId());
-
-        View textContainer = listItemView.findViewById(R.id.text_container);
+        View textContainer = convertView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), colorResourceId);
         textContainer.setBackgroundColor(color);
 
-        return listItemView;
+        return convertView;
 
     }
 }

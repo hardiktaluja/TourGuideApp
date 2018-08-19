@@ -28,7 +28,7 @@ public class MallsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-        ArrayList<Place> places = new ArrayList<Place>();
+        ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(getString(R.string.select_citywalk), getString(R.string.malviya_nagar), R.drawable.selectcitywalk));
         places.add(new Place(getString(R.string.dlf_promenade), getString(R.string.hauz_khas), R.drawable.dlfpromenade));
         places.add(new Place(getString(R.string.ambience), getString(R.string.hauz_khas), R.drawable.ambiencevk));

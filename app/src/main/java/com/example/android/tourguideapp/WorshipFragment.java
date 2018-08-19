@@ -27,7 +27,7 @@ public class WorshipFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
-        ArrayList<Place> places = new ArrayList<Place>();
+        ArrayList<Place> places = new ArrayList<>();
         places.add(new Place(getString(R.string.akshardham_temple), getString(R.string.akshardham), R.drawable.akshardham));
         places.add(new Place(getString(R.string.jama_masjid), getString(R.string.chandni_chowk), R.drawable.jamamasjid));
         places.add(new Place(getString(R.string.lotus_temple), getString(R.string.nehru_place), R.drawable.lotustemple));
